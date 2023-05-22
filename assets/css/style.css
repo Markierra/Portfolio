@@ -1,23 +1,27 @@
 body {
     background-color: rgb(241, 174, 185);
-    
 }
 
-h1 {
-  text-align:center;
-  color: rgba(128, 128, 128, 0.715);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-img {
-  display: block;
-  margin-top: 300px;
-  margin-left: auto;
-  margin-right: auto;
+#profile-picture {
   border-radius: 50%;
   width: 300px;
-  
+}
 
-    
-    
+.intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-top: 5rem;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  padding: 20%;
 }
