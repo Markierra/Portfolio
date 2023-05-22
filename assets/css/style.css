@@ -1,10 +1,18 @@
 body {
-    background-color: rgb(241, 174, 185);
+  background-image: url(../images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
 }
 
-#profile-picture {
-  border-radius: 50%;
-  width: 300px;
+.my-image {
+  padding-top:5rem;
+}
+#picture {
+  border-radius: 50%; 
+  padding-left: 50;
 }
 
 .intro {
@@ -12,16 +20,63 @@ body {
   justify-content: space-between;
   gap: 3rem;
   padding-top: 5rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.my-name h1 {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-me {
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 3rem;
+}
+
+.icons-links {
+  display: flex;
+  justify-content: right;
+  padding-right: 24rem;
+  gap: 4rem;
+}
+
+.icon-link {
+  display: flex;
 }
 
 .summary {
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-top: 10%;
+  line-height: 300%
 }
 
 .projects {
-  display: flex;
-  padding: 20%;
+  padding-top: 25rem;
+  padding-bottom: 6rem;
+  
+
 }
+
+.project-top {
+  display: flex;
+  padding-bottom: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  display: flex;
+  float: center;
+}
+
+.skills {
+  background-image: url(../images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  height: 700px;
+}
+
+
